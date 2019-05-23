@@ -1,0 +1,26 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	char letter[10];
+	int i, j;
+
+   		cout << "Enter 10 Letters or Numbers: ";
+		for (i = 0; i <= 10; i++)
+			{
+        		cin >> letter[i];
+    		}
+
+    	cout << endl;
+   		cout << "Revesed Character: " << endl;
+    	for (j = 9 ; j >= 0; j--)
+    		{
+        		cout  << letter[j];
+    		}
+    		
+	_getch();
+	return 0;
+}
